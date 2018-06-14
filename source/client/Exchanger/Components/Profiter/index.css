@@ -1,0 +1,82 @@
+@import 'styles/variables.css';
+
+.root {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: var(--vusluk-block-out-brd);
+  background-color: var(--vusluk-block-bg);
+  box-shadow: var(--vusluk-block-shd);
+}
+
+.asks, .bids {
+  display: flex;
+  flex-direction: row;
+}
+
+.asks > .exchange {
+  border-right: 1px solid var(--vusluk-block-brd);
+  width: 200px;
+  line-height: 20px;
+}
+
+.bids > .exchange {
+  border-left: 1px solid var(--vusluk-block-brd);
+  width: 200px;
+}
+
+.name {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 1px solid var(--vusluk-block-brd);
+}
+
+.profit {
+  min-width: 200px;
+}
+
+.profitPercent {
+  line-height: 40px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid var(--vusluk-block-brd);
+}
+
+.profitPath {
+  border-bottom: 1px solid var(--vusluk-block-brd);  
+  line-height: 20px;
+  font-size: 14px;
+  padding: 0 6px;
+}
+
+.profitPath > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.green {
+  color: green;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.red {
+  color: red;
+}
+
+.order {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 6px;
+  line-height: 20px;
+  font-size: 14px;
+  cursor: default;
+}
+
+
+

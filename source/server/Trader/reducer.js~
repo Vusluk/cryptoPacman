@@ -1,0 +1,10 @@
+const init = {}
+
+module.exports = (state = init, action) => {
+  switch (action.type) {
+    case 'EXCHANGES':
+      return state
+    default:
+      return state
+  }
+}

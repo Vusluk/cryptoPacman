@@ -1,0 +1,14 @@
+.root {
+    margin-top: 10px;
+    padding: 0 20px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+    align-item: center;
+}
+
+thead > tr > th {
+    padding: 0 10px;
+}

@@ -1,0 +1,120 @@
+:root {
+  --vusluk-black1: #1b1b1b;
+  --vusluk-black2: #282828;
+  --vusluk-black3: #353535;
+  --vusluk-black4: #414141;
+  --vusluk-gray1: #545c5e;
+  --vusluk-gray2: #60696b;
+  --vusluk-gray3: #9191a2;
+  --vusluk-gray4: #b6b5c5;
+  --vusluk-gray5: #a5a19c;
+  --vusluk-white1: #9f9fad;
+  --vusluk-white2: #adadb9;
+  --vusluk-white3: #babac4;
+  --vusluk-white4: #c8c8d0;
+  --vusluk-white5: #e7dfdf;
+  --vusluk-brown1: #52413f;
+  --vusluk-brown2: #7d6360;
+  --vusluk-brown3: #98777b;
+  --vusluk-brown4: #ae9895;
+  --vusluk-red1: #832729;
+  --vusluk-red2: #c93232;
+  --vusluk-red3: #d66e75;
+  --vusluk-red4: #cd5c5c;
+  --vusluk-red5: #a94d53;  
+  --vusluk-pink1: #d24b83;
+  --vusluk-pink2: #ef98aa;
+  --vusluk-pink3: #fbaed2;
+  --vusluk-orange1: #cc6a00;
+  --vusluk-orange2: #cd9575;
+  --vusluk-orange3: #d9a76f;
+  --vusluk-orange4: #dbac66;
+  --vusluk-orange5: #ddc085;
+  --vusluk-yellow1: #555a2f;
+  --vusluk-yellow2: #acb370;
+  --vusluk-yellow3: #c9bb87;
+  --vusluk-yellow4: #b9c791;
+  --vusluk-yellow5: #fdd5b1;
+  --vusluk-green1: #2e4039;
+  --vusluk-green2: #597a6e;
+  --vusluk-green3: #4d5d53;
+  --vusluk-green4: #709688;
+  --vusluk-green5: #152628;
+  --vusluk-green6: #39656b;
+  --vusluk-green7: #4a858c;
+  --vusluk-green8: #39855f;
+  --vusluk-green9: #54b685;
+  --vusluk-green10: #85b654;
+  --vusluk-green11: #8fbc8f;
+  --vusluk-green12: #80b6bc;
+  --vusluk-green13: #91b9c7;
+  --vusluk-green14: #6fb593;
+  --vusluk-blue1: #1e2528;
+  --vusluk-blue2: #36454f;
+  --vusluk-blue3: #2a4661;
+  --vusluk-blue4: #5077a5;
+  --vusluk-blue5: #267fb5;
+  --vusluk-blue6: #008b8b;
+  --vusluk-blue7: #54b6b6;
+  --vusluk-blue8: #817f96;
+  --vusluk-purple1: #1a121a;
+  --vusluk-purple2: #563d56;
+  --vusluk-purple3: #835d83;
+  --vusluk-purple4: #5454b6;
+  --vusluk-purple5: #796878;
+  --vusluk-purple6: #cea2ca;
+  --vusluk-purple7: #915c83;
+  --vusluk-purple8: #967bb6;
+  --vusluk-purple9: #9d81ba;
+  --vusluk-violet1: #997a8d;
+  --vusluk-violet2: #ab98b5;
+  
+  --vusluk-bg: var(--vusluk-black1);
+  --vusluk-bgl: var(--vusluk-black2);
+  --vusluk-bgll: var(--vusluk-black3);
+  --vusluk-bglll: var(--vusluk-black4);
+  
+  --vusluk-fg: var(--vusluk-white1);
+  --vusluk-fgl: var(--vusluk-white2);
+  --vusluk-fgll: var(--vusluk-white3);
+  --vusluk-fglll: var(--vusluk-white4);
+
+  --vusluk-body-bg: var(--vusluk-bg);
+  --vusluk-body-fg: var(--vusluk-fg);
+  --vusluk-header-bg: var(--vusluk-bg);
+  --vusluk-header-fg: var(--vusluk-fg);
+
+  --vusluk-block-bg: var(--vusluk-bgll);
+  --vusluk-block-fg: var(--vusluk-fglll);
+  --vusluk-block-out-brd: none;
+  --vusluk-block-brd: var(--vusluk-bg);
+  /* --vusluk-block-shd: 1px 1px 2px 1px black; */
+  --vusluk-block-shd: 0 1px 5px 1px rgba(0, 0, 0, .5);
+  
+  --vusluk-input-bg: var(--vusluk-bg);
+  --vusluk-input-bg-hover: var(--vusluk-fg);  
+  --vusluk-input-bg-active: var(--vusluk-fg);  
+  --vusluk-input-bg-disabled: var(--vusluk-fg);  
+  --vusluk-input-fg: var(--vusluk-fg);  
+  --vusluk-input-fg-hover: var(--vusluk-fg);  
+  --vusluk-input-fg-active: var(--vusluk-fg);  
+  --vusluk-input-fg-disabled: var(--vusluk-fg);  
+  --vusluk-input-brd: var(--vusluk-fg);  
+  --vusluk-input-brd-hover: var(--vusluk-fg);  
+  --vusluk-input-brd-active: var(--vusluk-fg);  
+  --vusluk-input-brd-disabled: var(--vusluk-fg);  
+  --vusluk-input-shd: var(--vusluk-block-shd);
+
+  --vusluk-bid-color: var(--vusluk-green10);
+  --vusluk-ask-color: var(--vusluk-red2);
+  
+}
+
+@custom-media --trood-lg-and-tablet-and-phone only screen and (width <= 1400px);
+@custom-media --trood-tablet-and-phone only screen and (width <= 1000px);
+@custom-media --trood-phone only screen and (width <= 800px);
+@custom-media --trood-phone-horizontal only screen and (width <= 800px) and (orientation: landscape);
+@custom-media --trood-lg-and-tablet only screen and (width > 800px) and (width <= 1400px);
+@custom-media --trood-lg only screen and (width > 1000px) and (width <= 1400px);
+@custom-media --trood-tablet only screen and (width > 800px) and (width <= 1000px);
+@custom-media --trood-big-tablet only screen and (width > 800px) and (width <= 1200px);

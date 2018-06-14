@@ -1,0 +1,80 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  height: 183px;
+  border: var(--vusluk-block-out-brd);
+  background-color: var(--vusluk-block-bg);
+  box-shadow: var(--vusluk-block-shd);
+}
+
+.name {
+  flex-grow: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 6px;
+  border-bottom: 1px solid var(--vusluk-block-brd);
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.name > span:first-child {
+  font-weight: bold;
+}
+
+.name > span:last-child {
+  font-size: 14px;
+}
+
+.stats {
+  flex-grow: 0;
+  border-bottom: 1px solid var(--vusluk-block-brd);  
+  line-height: 20px;
+}
+
+.stats > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 6px;
+}
+
+.stats > div > span:first-child {
+  font-size: 14px;  
+}
+
+.stats > div > span:last-child {
+  font-size: 12px;  
+}
+
+.trade {
+  flex-grow: 10;
+}
+
+.trade > div {
+  display: flex;
+  justify-content: space-around;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.trade > div > span:first-child {
+  color: var(--vusluk-bid-color);
+}
+
+.trade > div > span:last-child {
+  color: var(--vusluk-ask-color);
+}
+
+.control {
+  display: flex;
+  flex-grow: 0;
+  border-top: 1px solid var(--vusluk-block-brd);  
+}
+
+.control > div {
+  display: inline-block;
+  width: 50%;
+  cursor: pointer;
+  text-align: center;
+}

@@ -1,0 +1,114 @@
+[
+  { "question": "cold, colder",
+    "answer": "the coldest",
+    "success": "0",
+    "failure": "0",
+    "type": "adjectives"
+  },
+  { "question": "warm, warmer",
+    "answer": "the warmest",
+    "success": "0",
+    "failure": "0",
+    "type": "adjectives"
+  },
+  { "question": "big, bigger",
+    "answer": "the biggest",
+    "success": "0",
+    "failure": "0",
+    "type": "adjectives"
+  },
+  { "question": "Я",
+    "answer": "i",
+    "success": "0",
+    "failure": "0",
+    "type": "translate"
+  },
+  { "question": "Ты",
+    "answer": "you",
+    "success": "0",
+    "failure": "0",
+    "type": "translate"
+  },
+  { "question": "Мы",
+    "answer": "we",
+    "success": "0",
+    "failure": "0",
+    "type": "translate"
+  },
+
+  { "question": "I play",
+    "answer": "Present Simple",
+    "success": "0",
+    "failure": "0",
+    "type": "tenses"
+  },
+  { "question": "I played",
+    "answer": "Past Simple",
+    "success": "0",
+    "failure": "0",
+    "type": "tenses"
+  },
+  { "question": "I shall play",
+    "answer": "Future Simple",
+    "success": "0",
+    "failure": "0",
+    "type": "tenses"
+  },
+
+  { "question": "I am playing",
+    "answer": "Present Continuous",
+    "success": "0",
+    "failure": "0",
+    "type": "tenses"
+  },
+  { "question": "I was playing",
+    "answer": "Past Continuous",
+    "success": "0",
+    "failure": "0",
+    "type": "tenses"
+  },
+  { "question": "I shall be playing",
+    "answer": "Future Continuous",
+    "success": "0",
+    "failure": "0",
+    "type": "tenses"
+  },
+
+  { "question": "I have played",
+    "answer": "Present Perfect",
+    "success": "0",
+    "failure": "0",
+    "type": "tenses"
+  },
+  { "question": "I had played",
+    "answer": "Past Perfect",
+    "success": "0",
+    "failure": "0",
+    "type": "tenses"
+  },
+  { "question": "I shall have played",
+    "answer": "Future Perfect",
+    "success": "0",
+    "failure": "0",
+    "type": "tenses"
+  },
+
+  { "question": "I have been playing",
+    "answer": "Present Perfect Continuous",
+    "success": "0",
+    "failure": "0",
+    "type": "tenses"
+  },
+  { "question": "I had been playing",
+    "answer": "Past Perfect Continuous",
+    "success": "0",
+    "failure": "0",
+    "type": "tenses"
+  },
+  { "question": "I shall have been playing",
+    "answer": "Future Perfect Continuous",
+    "success": "0",
+    "failure": "0",
+    "type": "tenses"
+  }
+]

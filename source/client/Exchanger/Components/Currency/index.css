@@ -1,0 +1,32 @@
+@import 'styles/variables.css';
+
+.root {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  width: 100%;
+}
+
+.currencyCard {
+  margin-right: 6px;
+}
+
+.profiter {
+  max-width: calc(100% - 206px)
+}
+
+.orderChart {
+  width: 100%;
+  height: 500px;
+  flex-grow: 1;
+  margin-bottom: 6px;
+  border: var(--vusluk-block-out-brd);
+  background-color: var(--vusluk-block-bg);
+  box-shadow: var(--vusluk-block-shd);
+}

@@ -1,0 +1,55 @@
+.root {
+}
+
+.currencies {
+  display: flex;
+  flex-direction: column;
+}
+
+.currency {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #353535;
+  margin-bottom: 5px;
+  padding-left: 5px;
+}
+
+.name {
+  width: 86px;
+}
+
+.profits {
+  display: flex;
+  flex-direction: row;
+}
+
+/* .profits > :first-child { */
+/* } */
+
+.from {
+  flex-grow: 2;
+  /* align-self: left; */
+}
+
+.toPrice {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  min-width: 180px;
+  border-left: 1px solid #353535;
+  padding: 0 5px;
+}
+
+.green {
+  color: green;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.red {
+  color: red;
+}
