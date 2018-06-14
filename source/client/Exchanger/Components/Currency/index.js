@@ -31,7 +31,7 @@ const Currency = ({
 }) => {
   const orders = mergeOrders(bids, asks)
   const ordersLocal = mergeOrders(bids.filter(o => o.price > (bid.price * 0.8)), asks.filter(o => o.price < (ask.price * 1.2)))
-  
+
   return (
     <div className={className ? `${style.root} ${className}` : style.root}>
       <div className={style.header}>

@@ -1,7 +1,12 @@
-# language
-App that help to test your english language skills
+# CryptoCoins rates 
+App that help find price differences betwen exchanges
 
-Для запуска нужен npm и mongodb
+Для запуска нужен npm и node
 
-1. запустить в корне проекта npm run clean и npm run start
+1. запустить в корне проекта npm install и npm start
 2. открыть в браузере localhost:8080
+3. перейти по единственной ссылке "EXCHANGES"
+4. чекнуть "PO", чтобы отфильтровать профитные валюты
+5. зайти в интересующую валюту и нажать "ОБНОВИТЬ"
+6. убедиться, что объем ордеров не маленький
+7. убедиться, что соответствующие кошельки на биржах не залочены
